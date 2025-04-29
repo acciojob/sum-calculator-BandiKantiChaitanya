@@ -18,7 +18,7 @@ const App = () => {
         <input type="number" name="num" id="num" onChange={handleSum} />
         </form>
         {
-          <p>Sum:{sum}</p>
+          <p>Sum: {sum}</p>
         }
     </div>
   )
